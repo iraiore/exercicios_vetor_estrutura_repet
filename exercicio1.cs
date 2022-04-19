@@ -14,9 +14,10 @@ namespace exercicio1
            Console.Write("Entre com  tamanho do vetor: \n");
            vet = int.Parse(Console.ReadLine());
            Console.Write("O vetor tera: "+vet+" posições!\n");
+           Console.WriteLine("o valor das variaveis i e j são respectivamente: "+i+","+j);
 
            //Preenchendo o vetor
-           While (i<vet)
+           while (i<vet)
            {
              Console.WriteLine("Entre com o "+cont_impr+"° valor do vetor");
              vetor[i] = int.Parse(Console.ReadLine());
