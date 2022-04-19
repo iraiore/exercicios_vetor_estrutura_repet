@@ -13,11 +13,11 @@ namespace exercicio1
           
            Console.Write("Entre com  tamanho do vetor: \n");
            vet = int.Parse(Console.ReadLine());
-           Console.Write("O vetor tera: "+vet+" posições!\n");
+           Console.Write("\nO vetor tera: "+vet+" posições!\n");
            Console.WriteLine("\no valor das variaveis i e j são respectivamente: "+i+","+j);
 
            //Preenchendo o vetor
-           while (i<vet)
+           while (i<vet-1)
            {
              Console.WriteLine("\nEntre com o "+j+"° valor do vetor");
              vetor[i] = int.Parse(Console.ReadLine());
@@ -26,12 +26,12 @@ namespace exercicio1
              
             }
             //imprimindo o vetor em arvore com o a estrutura for
-             Console.WriteLine("O vetor de "+vet+" posições é: ");
-            for(int a=0; a<vet; a++)
+             Console.WriteLine("\nO vetor de "+vet+" posições é: ");
+            for(int a=0; a<vet-1; a++)
             {
-                for(int b=0;j<=a;b++)
+                for(int b=0;b<=a;b++)
                 {
-                Console.Write(vetor[i]);
+                Console.Write(vetor[b]);
                 Console.WriteLine("\n");
                 }
             }
