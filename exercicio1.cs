@@ -6,7 +6,7 @@ namespace exercicio1
         public static void Main (string[] args)
         {
             //Declaração de Variáveis
-           int[] vetor = new int[30];
+           int[] vetor = new int[0];
            int i=0, j=1, vet=0;//variaveis para  percorrer o vetor e impressao de mensagem e definir o tamnho do vetor
         
            Console.Write("!---------Estrutura WHILE---------!\n\n");//\n\n para pular duas linhas
