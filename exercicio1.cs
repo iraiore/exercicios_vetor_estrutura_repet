@@ -23,7 +23,6 @@ namespace exercicio1
              i++;
              j++;
            }
-            return 0;
         }
     }
 }
