@@ -28,8 +28,11 @@ namespace exercicio1
              Console.WriteLine("O vetor de "+vet+"posições é: ");
             for(i=0; i++; i<vet)
             {
+                for(j=0;j++;j<=i)
+                {
                 Console.Write(vetor[i]);
                 Console.WriteLine("\n")
+                }
             }
              
            }
