@@ -16,12 +16,13 @@ namespace exercicio1
            Console.Write("O vetor tera: "+vet+" posições!\n");
 
            //Preenchendo o vetor
-           While(i<vet)
+           While (i<vet)
            {
              Console.WriteLine("Entre com o "+cont_impr+"° valor do vetor");
              vetor[i] = int.Parse(Console.ReadLine());
              i++;
              j++;
+             return 0;
            }
 
         }
