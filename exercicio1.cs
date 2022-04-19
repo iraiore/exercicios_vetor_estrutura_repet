@@ -17,7 +17,7 @@ namespace exercicio1
            Console.WriteLine("\no valor das variaveis i e j são respectivamente: "+i+","+j);
 
            //Preenchendo o vetor
-           while (i<vet-1)
+           while (i<vet)
            {
              Console.WriteLine("\nEntre com o "+j+"° valor do vetor");
              vetor[i] = int.Parse(Console.ReadLine());
@@ -26,16 +26,18 @@ namespace exercicio1
              
             }
             //imprimindo o vetor em arvore com o a estrutura for
-             Console.WriteLine("\nO vetor de "+vet+" posições é: ");
-            for(int a=0; a<vet-1; a++)
+             Console.WriteLine("\nO vetor de "+vet+" posições é: \n");
+            for(int a=0; a<vet; a++)
             {
+				//Console.Write("\na= "+a+"\n");//entendendo o laço for para impressao no estilo crescente variavel a
                 for(int b=0;b<=a;b++)
                 {
-                Console.Write(vetor[b]);
-                Console.WriteLine("\n");
+                Console.Write(+vetor[b]+" ");
+				//Console.Write("b= "+b+" \n");//entendendo o laço for para impressao no estilo crescente variavel b - funço aninhada
                 }
+				Console.WriteLine("\n");//pular uma linha para cada impressão do vetor com o contador b
             }
-             Console.ReadKey();
+             Console.ReadLine();
         }
     }
 }
