@@ -24,7 +24,8 @@ namespace exercicio1
              i++;
              j++;
              
-             //imprimindo o vetor em arvore com o a estrutura for
+            }
+            //imprimindo o vetor em arvore com o a estrutura for
              Console.WriteLine("O vetor de "+vet+"posições é: ");
             for(int a=0; a<vet; a++)
             {
@@ -35,7 +36,6 @@ namespace exercicio1
                 }
             }
              
-           }
         }
     }
 }
