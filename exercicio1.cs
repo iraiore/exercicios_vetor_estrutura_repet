@@ -32,7 +32,7 @@ namespace exercicio1
                 for(int b=0;j<=a;b++)
                 {
                 Console.Write(vetor[i]);
-                Console.WriteLine("\n")
+                Console.WriteLine("\n");
                 }
             }
              Console.ReadKey();
