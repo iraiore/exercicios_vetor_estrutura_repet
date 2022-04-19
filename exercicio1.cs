@@ -22,9 +22,8 @@ namespace exercicio1
              vetor[i] = int.Parse(Console.ReadLine());
              i++;
              j++;
-             return 0;
            }
-
+            return 0;
         }
     }
 }
