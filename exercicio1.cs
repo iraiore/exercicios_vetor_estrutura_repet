@@ -11,12 +11,12 @@ namespace exercicio1
         
            Console.Write("!---------Estrutura WHILE---------!\n\n");//\n\n para pular duas linhas
           
+           //Dados de entrada do usuário para deterinar o tamanho do vetor - o exercicio pede um vetor de 30 posições
            Console.Write("Entre com  tamanho do vetor: \n");
            vet = int.Parse(Console.ReadLine());
            Console.Write("\nO vetor tera: "+vet+" posições!\n");
-           Console.WriteLine("\no valor das variaveis i e j são respectivamente: "+i+","+j);
 
-           //Preenchendo o vetor
+           //Preenchendo o vetor com a estrutura WHILE
            while (i<vet)
            {
              Console.WriteLine("\nEntre com o "+j+"° valor do vetor");
@@ -25,7 +25,7 @@ namespace exercicio1
              j++;
              
             }
-            //imprimindo o vetor em arvore com o a estrutura for
+            //imprimindo o vetor em arvore com o a estrutura FOR
              Console.WriteLine("\nO vetor de "+vet+" posições é: \n");
             for(int a=0; a<vet; a++)
             {
