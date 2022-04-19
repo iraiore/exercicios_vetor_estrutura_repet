@@ -7,9 +7,11 @@ namespace exercicio1
         {
             //Declaração de Variáveis
            int [] vetor = new int[30];
-           int cont_entrada=0, cont_impr=0;//variavem para  percorrer o vetor
+           int cont_entrada=0, cont_impr=0;//variaveis para  percorrer o vetor e impressao de mensagem
         
-           Console.Write("!---------Estrutura WHILE---------!") 
+           Console.Write("!---------Estrutura WHILE---------!\n\n");
+           Console.Write("--");
+           
         }
     }
 }
