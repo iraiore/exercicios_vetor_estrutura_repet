@@ -43,9 +43,9 @@ namespace exercicio1
              Console.WriteLine("Os valores maiores que 100 são: \n");
              while (i<vet)
              {
-                 if(vet[i]>100)
+                 if(vetor[i]>100)
                  {
-                     Console.Write(vet[i]+",");
+                     Console.Write(vetor[i]+",");
                  }
                  i++;
              }
