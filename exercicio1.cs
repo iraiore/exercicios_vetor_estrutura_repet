@@ -16,7 +16,7 @@ namespace exercicio1
            vet = int.Parse(Console.ReadLine());
            Console.Write("\nO vetor tera: "+vet+" posições!\n");
 
-           //Preenchendo o vetor com a estrutura WHILE
+           //PREENCHENDO O VETOR COM A ESTRUTURA WHILE
            while (i<vet)
            {
              Console.WriteLine("\nEntre com o "+j+"° valor do vetor");
@@ -25,18 +25,30 @@ namespace exercicio1
              j++;
              
             }
-            //imprimindo o vetor em arvore com o a estrutura FOR
+            //IMPRIMINDO O VETOR DE  FORMA CRESCENTE COM A ESTRUTURA DO FOR
              Console.WriteLine("\nO vetor de "+vet+" posições é: \n");
             for(int a=0; a<vet; a++)
             {
 				//Console.Write("\na= "+a+"\n");//entendendo o laço for para impressao no estilo crescente variavel a
-                for(int b=0;b<=a;b++)
+                for (int b=0;b<=a;b++)
                 {
                 Console.Write(+vetor[b]+" ");
 				//Console.Write("b= "+b+" \n");//entendendo o laço for para impressao no estilo crescente variavel b - funço aninhada
                 }
 				Console.WriteLine("\n");//pular uma linha para cada impressão do vetor com o contador b
             }
+            //ENCONTRANDO E IMPRIMINDO OS VALORES MAIORES QUE 100
+             i=0;
+             j=0;
+             Console.WriteLine("Os valores maiores que 100 são: \n");
+             while (i<vet)
+             {
+                 if(vet[i]>100)
+                 {
+                     Console.Write(vet[i]+",");
+                 }
+                 i++;
+             }
              Console.ReadLine();
         }
     }
