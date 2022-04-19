@@ -19,7 +19,7 @@ namespace exercicio1
            //Preenchendo o vetor
            while (i<vet)
            {
-             Console.WriteLine("Entre com o "+cont_impr+"° valor do vetor");
+             Console.WriteLine("Entre com o "+j+"° valor do vetor");
              vetor[i] = int.Parse(Console.ReadLine());
              i++;
              j++;
