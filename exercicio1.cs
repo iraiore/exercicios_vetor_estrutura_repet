@@ -58,6 +58,7 @@ namespace exercicio1
 
             Console.Write("!---------Estrutura DO... WHILE---------!\n\n");//\n\n para pular duas linhas
             //inicializando os vetores par aque seja utilzado na estrutura do...while
+            vet=0;
             i=0;
             j=1;
 
@@ -81,12 +82,12 @@ namespace exercicio1
            //IMPRIMINDO O VETOR DE  FORMA DECRESCENTE COM A ESTRUTURA FOR
            Console.WriteLine("\nO vetor de "+vet+" posições é: \n");
            Console.WriteLine(a+"e"+b);
-           for(int a=vet-1; a>0; a--)
+           for(int a=vet; a>0; a--)
            {
 	            //Console.Write("\na= "+a+"\n");//entendendo o laço for para impressao no estilo crescente da variavel a
                 for (int b=a;b>0;b--)
                 {
-                    Console.Write(vetor[b]+" ");
+                    Console.Write(vetorD[b-1]+" ");
 		            //Console.Write("b= "+b+" \n");//entendendo o laço for para impressao no estilo crescente variavel b - funçao aninhada
                 }
 		        Console.WriteLine("\n");//pular uma linha para cada impressão do vetor com o contador b
