@@ -67,7 +67,7 @@ namespace exercicio1
 
            //mensagem anunciando o tamnho do vetor e o vetor assumindo o numeor de posições
            Console.Write("\nO vetor tera: "+vet+" posições!\n");
-           int[] vetor = new int[vet];
+           int[] vetorD = new int[vet];//necessario criar outro vetor pois, nao sei como reinicializar e reutilizar o mesmo vetor para estrutura do...while
 
            //PREENCHENDO O VETOR COM A ESTRUTURA DO... WHILE
            do
@@ -76,7 +76,7 @@ namespace exercicio1
              vetor[i] = int.Parse(Console.ReadLine());
              i++;
              j++;
-           }while (i<vet)
+           }while (i<vet);
         }
     }
 }
