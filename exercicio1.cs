@@ -91,7 +91,18 @@ namespace exercicio1
                 }
 		        Console.WriteLine("\n");//pular uma linha para cada impressão do vetor com o contador b
             }
-            Console.ReadLine();
+            //inicializando os contadores para percorrerem o vetor e encontrar os valores maiores que 100
+            i=0;
+            j=0;
+            Console.WriteLine("Os valores maiores que 100 são: \n");
+            do
+            {
+                if(vetorD[i]>100)
+                {
+                    Console.Write(vetorD[i]+" ,");
+                }
+            }while(i<vet);      
         }
+        Console.ReadLine();
     }
 }
