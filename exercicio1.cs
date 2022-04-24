@@ -102,8 +102,8 @@ namespace exercicio1
                     Console.Write(vetorD[i]+" ,");
                 }
                 i++;
-            }while(i<vet);      
+            }while(i<vet);  
+            Console.ReadLine();    
         }
-        Console.ReadLine();
     }
 }
