@@ -80,6 +80,7 @@ namespace exercicio1
 
            //IMPRIMINDO O VETOR DE  FORMA DECRESCENTE COM A ESTRUTURA FOR
            Console.WriteLine("\nO vetor de "+vet+" posições é: \n");
+           Console.WriteLine(a+"e"+b);
            for(int a=vet-1; a>0; a--)
            {
 	            //Console.Write("\na= "+a+"\n");//entendendo o laço for para impressao no estilo crescente da variavel a
