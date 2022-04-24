@@ -91,8 +91,8 @@ namespace exercicio1
 		            //Console.Write("b= "+b+" \n");//entendendo o laço for para impressao no estilo crescente variavel b - funçao aninhada
                 }
 		        Console.WriteLine("\n");//pular uma linha para cada impressão do vetor com o contador b
-                Console.ReadLine();
             }
+            Console.ReadLine();
         }
     }
 }
