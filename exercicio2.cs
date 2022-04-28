@@ -1,18 +1,18 @@
-using system;
+using System;
 namespace exercicio2
 {
     public class Program
     {
         public static void Main (string[] args)
         {
-            Console.Write(""!---------Estrutura WHILE---------!\n\n"");
+            Console.Write("!---------Estrutura WHILE---------!\n\n");
             //declaração de variáveis
             int[] mult = new int[10];
             int i=0, j=1; 
             //preenchendo o vetor
             while(i<10)
             {
-                Cosole.WriteLine("Entre com "+j+"° valor do vetor: ");
+                Console.WriteLine("Entre com "+j+"° valor do vetor: ");
                 mult[i] = int.Parse(Console.ReadLine());
                 i++;
                 j++;
