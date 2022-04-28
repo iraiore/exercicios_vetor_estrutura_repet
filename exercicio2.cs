@@ -25,9 +25,9 @@ namespace exercicio2
                 if(mult[i]%3==0)
                 {
                     Console.WriteLine("O "+j+"° valor é multiplo de 3: "+mult[i]);
-                    i++;
-                    j++;
                 }
+                i++;
+                j++;
             }
             Console.ReadLine(); 
         }
