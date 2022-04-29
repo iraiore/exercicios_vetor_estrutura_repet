@@ -29,7 +29,7 @@ namespace exercicio2
                 i++;
                 j++;
             }
-            Console.Write("!---------Estrutura DO... WHILE---------!\n\n");//\n\n para pular duas linhas
+            Console.Write("\n\n!---------Estrutura DO... WHILE---------!\n\n");//\n\n para pular duas linhas
             //inicializando os vetores par aque seja utilzado na estrutura do...while
             i=0;
             j=1;
