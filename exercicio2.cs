@@ -29,6 +29,30 @@ namespace exercicio2
                 i++;
                 j++;
             }
+            Console.Write("!---------Estrutura DO... WHILE---------!\n\n");//\n\n para pular duas linhas
+            //inicializando os vetores par aque seja utilzado na estrutura do...while
+            i=0;
+            j=1;
+            //preenchendo o vetor
+            do
+            {
+                Console.WriteLine("Entre com "+j+"° valor do vetor: ");
+                mult[i] = int.Parse(Console.ReadLine());
+                i++;
+                j++;
+            }while(i<10);
+            //estrutra para encontrar os valores multiplos de 3
+            i=0;
+            j=1;
+            do
+            {
+                if(mult[i]%3==0)
+                {
+                    Console.WriteLine("O "+j+"° valor é multiplo de 3: "+mult[i]);
+                }
+                i++;
+                j++;
+            }while(i<10);
             Console.ReadLine(); 
         }
     }
