@@ -9,7 +9,7 @@ namespace exercicio3
            i=0, j=0, vet=0;
             //Defininado o tamnho do vetor
             Console.WriteLine("Entre com o tamnho do vetor: ");
-            vet=int.Parse(Console.Realine());
+            vet=int.Parse(Console.Readline());
             int[] medVet = new int [vet];// vetor assumindo o tamanho entrado pelo usuário
 
             //preenchendo o vetor
@@ -20,8 +20,25 @@ namespace exercicio3
             while (i<vet)
             {
                 Console.WriteLine("Entre com o valor do "+j+"º vetor: ");
-            }            
-
+                medVet[i]=int.Parse(Console.ReadLine());
+                if(medVet[i]=0);
+                {
+                    while(i+1<vet)
+                    {
+                        medVet[i+1]=0;
+                        i++;
+                    }
+                }
+                i++;
+                j++;
+            }
+            i=0;
+            while(i<vet)
+            {
+            Console.Write(medVet[i]+",");
+            i++;            
+            }
+            Console.ReadLine();
         }
     }
 }
