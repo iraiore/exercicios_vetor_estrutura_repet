@@ -6,7 +6,7 @@ namespace exercicio3
         public static void Main (string[] args)
         {
            Console.Write("!---------Estrutura WHILE---------!\n\n");//\n\n para pular duas linhas
-           int i=0, j=1, vet=0;
+           int i=0, j=1, k=0, vet=0;
             //Defininado o tamnho do vetor
             Console.WriteLine("Entre com o tamnho do vetor: ");
             vet=int.Parse(Console.ReadLine());
@@ -17,20 +17,26 @@ namespace exercicio3
             "Se o dado informado for igual a zero o vetor não sera mais preenchido,\n"+
             "mesmo que o valor total do vetor nao tenha sido ocpupado, neste caso, as\n"+
             "demais posições do vetor assumirão o valor zero!");
+            //preechendo o vetor
             while (i<vet)
             {
                 Console.WriteLine("\nEntre com o valor do "+j+"º vetor: ");
                 medVet[i]=int.Parse(Console.ReadLine());
-                if(medVet[i]==0);
+               //alocando zero na posição i ate o fim do vetor caso digite zero
+                if(medVet[i]==0)
                 {
-                    while(i+1<vet)
+                    k=i;
+                    while(k<vet)
                     {
-                        medVet[i+1]=0;
-                        i++;
+                        medVet[k]=0;
+                        k++;
                     }
-                }
+                    i=vet;
+                }else
+                {
                 i++;
                 j++;
+                }
             }
             i=0;
             while(i<vet)
