@@ -1,9 +1,9 @@
 using System;
 namespace exercicio3
 {
-    pulbic class Program
+    public class Program
     {
-        pulbic static void Main (string[] args)
+        public static void Main (string[] args)
         {
            Console.Write("!---------Estrutura WHILE---------!\n\n");//\n\n para pular duas linhas
            int i=0, j=0, vet=0;
