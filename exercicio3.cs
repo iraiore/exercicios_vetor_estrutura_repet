@@ -9,7 +9,7 @@ namespace exercicio3
            int i=0, j=0, vet=0;
             //Defininado o tamnho do vetor
             Console.WriteLine("Entre com o tamnho do vetor: ");
-            vet=int.Parse(Console.Readline());
+            vet=int.Parse(Console.ReadLine());
             int[] medVet = new int [vet];// vetor assumindo o tamanho entrado pelo usuário
 
             //preenchendo o vetor
