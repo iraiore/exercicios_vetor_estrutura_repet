@@ -6,7 +6,7 @@ namespace exercicio3
         pulbic static void Main (string[] args)
         {
            Console.Write("!---------Estrutura WHILE---------!\n\n");//\n\n para pular duas linhas
-           i=0, j=0, vet=0;
+           int i=0, j=0, vet=0;
             //Defininado o tamnho do vetor
             Console.WriteLine("Entre com o tamnho do vetor: ");
             vet=int.Parse(Console.Readline());
