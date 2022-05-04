@@ -6,7 +6,7 @@ namespace exercicio3
         public static void Main (string[] args)
         {
            Console.Write("!---------Estrutura WHILE---------!\n\n");//\n\n para pular duas linhas
-           int i=0, j=0, vet=0;
+           int i=0, j=1, vet=0;
             //Defininado o tamnho do vetor
             Console.WriteLine("Entre com o tamnho do vetor: ");
             vet=int.Parse(Console.ReadLine());
@@ -19,9 +19,9 @@ namespace exercicio3
             "demais posições do vetor assumirão o valor zero!");
             while (i<vet)
             {
-                Console.WriteLine("Entre com o valor do "+j+"º vetor: ");
+                Console.WriteLine("\nEntre com o valor do "+j+"º vetor: ");
                 medVet[i]=int.Parse(Console.ReadLine());
-                if(medVet[i]=0);
+                if(medVet[i]==0);
                 {
                     while(i+1<vet)
                     {
