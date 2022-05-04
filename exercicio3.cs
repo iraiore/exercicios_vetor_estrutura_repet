@@ -37,6 +37,7 @@ namespace exercicio3
                 i++;
                 j++;
                 }
+                Console.WriteLine("\n"i);
             }
             i=0;
             while(i<vet)
