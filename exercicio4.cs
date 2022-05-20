@@ -24,7 +24,7 @@ namespace exercicio4
             }
             media = b / divisor;
             Console.Write("a media dos valores é: "+ media);
-            Console.ReadLine();
+            Console.ReadLine("TESTE");
         }
     }
 }
