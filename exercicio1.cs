@@ -42,7 +42,7 @@ namespace exercicio1
            }
            Console.WriteLine("\n\nPressione a tecla Enter para iniciar a estrutura do..while");
            Console.ReadLine();
-           Console.Write("!-----------------------ESTRUTURA DO... WHILE-----------------------!\n\n");
+           Console.Write("\n\n!-----------------------ESTRUTURA DO... WHILE-----------------------!\n\n");
            vet=0; i=0; j=1;//zerando os contadores para serem utilzados na estrutura do...while
            //definindo o tamanho do vetor - o exercicio pede 30 valores
            Console.Write("Entre com  tamanho do vetor: \n");
