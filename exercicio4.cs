@@ -5,7 +5,7 @@ namespace exercicio4
     {
         public static void Main (string[] args)
         {
-            int a = 0, b = 0, c = 1, soma=0, divisor=0;
+            int a = 0, b = 0, c = 1, soma=0, divisor=1;
             float media = 0;
             
             while(a >= 0)
@@ -22,9 +22,10 @@ namespace exercicio4
                 a++;c++;
                 }
             }
+            Console.WriteLine("\na = "+a+"\nb = "+b+"\nsoma = "+soma+"\ndivisor = "+divisor);
             media = b / divisor;
-            Console.Write("a media dos valores é: "+ media);
-            Console.ReadLine("TESTE");
+            Console.Write("\na media dos valores é: "+ media);
+            Console.ReadLine();
         }
     }
 }
