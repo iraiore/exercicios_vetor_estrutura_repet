@@ -5,7 +5,7 @@ namespace exercicio5
     {
         public static void Main(string[] args)
         {
-            int b = 1, posit = 0, negat = 0; double somaP = 0, somaN = 0, media = 0;//declaração de variáveis
+            int a = 1, b = 0, posit = 0, negat = 0; double somaP = 0, somaN = 0, media = 0;//declaração de variáveis
             do
             {
                 Console.WriteLine("Digite um valor: ");
@@ -19,7 +19,8 @@ namespace exercicio5
                     somaN = somaN + b;
                     negat++;
                 }
-            }while (b != 0 );
+                a = b;
+            }while (a != 0 );
             //calculando a media dos valores positivos e negativos
             media = somaP / posit;
             Console.WriteLine("a media dos valores positivos é: "+ media);
