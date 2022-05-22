@@ -6,7 +6,7 @@ namespace exercicio3
         public static void Main (string[] args)
         {
            Console.Write("!-----------------------ESTRUTURA WHILE-----------------------!\n\n");
-           int i=0, j=1, k=0, vet=0, somaVet=0, med;//declaração de variáveis
+           int i=0, j=1, k=0, vet=0; double somaVet=0, med=0;//declaração de variáveis
             //Defininado o tamnho do vetor
             Console.WriteLine("Entre com o tamnho do vetor: ");
             vet=int.Parse(Console.ReadLine());
@@ -19,7 +19,7 @@ namespace exercicio3
             //preechendo o vetor
             while (i < vet)
             {
-                Console.WriteLine("\nEntre com o valor do "+j+"º vetor: ");
+                Console.WriteLine("\nEntre com o "+j+"º valor do vetor: ");
                 medVet[i]=int.Parse(Console.ReadLine());
                //verificando se o valor é zero e zerando o restante do vetor
                 if(medVet[i] == 0)
