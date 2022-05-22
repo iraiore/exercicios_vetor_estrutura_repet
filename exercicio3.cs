@@ -40,8 +40,7 @@ namespace exercicio3
                     i=vet;
                 }else
                 {
-                i++;
-                j++;
+                i++;j++;
                 }
             }
             //imprimindo o vetor
