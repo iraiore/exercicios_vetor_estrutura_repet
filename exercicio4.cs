@@ -5,9 +5,8 @@ namespace exercicio4
     {
         public static void Main (string[] args)
         {
-            int a = 0, b = 0, c = 1, soma=0, divisor=1;
-            float media = 0;
-            
+            int a = 0, b = 0, c = 1, soma = 0, divisor = 1; float media = 0;//declaração de variaveis
+            //verificando se o dado entrado e zero e somando seus valores
             while(a >= 0)
             {
                 Console.Write ("Entre com o "+c+"º numero: \n");
@@ -22,8 +21,8 @@ namespace exercicio4
                 a++;c++;
                 }
             }
-            Console.WriteLine("\na = "+a+"\nb = "+b+"\nsoma = "+soma+"\ndivisor = "+divisor);
-            media = b / divisor;
+            //calculando a media dos valores 
+            media = soma / divisor;
             Console.Write("\na media dos valores é: "+ media);
             Console.ReadLine();
         }
